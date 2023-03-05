@@ -13,7 +13,7 @@ function Hero() {
               <Btn  icon={sparks} title="v3.1 released. Learn more"/>
              <h1 className='heroTitle'>Your data with<br/>real-time analytics</h1>
              <p className='heroText'>Harness the potential of Big Data Analytics & Cloud Services<br/> and become a data-driven organization with Needle tail</p>
-             <button className='leftBtn'>Start free trial</button>
+             <button className='leftBtn'>Start free trials</button>
               <button className='rightBtn'>Learn more</button>
             </div>
             <div className='hero-right'>
