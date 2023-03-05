@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content:space-between;
-
+    position: relative;
     ul{
         display: flex;
         gap: 40px;
@@ -20,6 +20,38 @@
             border:1px solid #722ED1;
             padding: 12px 24px;
             border-radius: 23px;
+        }
+        
+        
+        @media screen and (max-width:767px){
+            display: none;
+        }
+            
+        
+    }
+
+    &-mobile{
+        display: none;
+        
+        @media screen and (max-width:767px){
+            display: flex;  
+            svg{
+                font-size: 35px;
+                cursor: pointer;
+                color: #722ED1;
+            } 
+
+            ul{ 
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 50px;
+                left:0;
+                right: 0;
+                z-index: 99;
+                background-color: aliceblue;
+
+            }
         }
     }
 }
