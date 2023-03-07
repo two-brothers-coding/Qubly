@@ -1,0 +1,40 @@
+.aboutCto{
+    clip-path: polygon(100% 0, 100% 74%, 0 100%, 0 26%);
+    background-color: #8989a23c;
+    height: 100%;
+    padding: 200px 0;
+    margin: 20px 0;
+    .container {
+        .about{
+            .cto{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+                .ctoText{
+                    font-size: 24px;
+                    font-weight: 500;
+                    color:#160637 ;
+                }
+                .ctoT{
+                    font-size: 16px;
+                    font-weight: 700;
+                    color:#000000 ;
+                    margin-bottom: 32px;
+                }
+            }
+            .images{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-top:32px ;
+                img{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+
+   

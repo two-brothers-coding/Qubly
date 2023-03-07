@@ -1,0 +1,46 @@
+.mainTeams {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .img {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 70%;
+    }
+  }
+
+  .productsTeams {
+    width: 50%;
+    .mainText {
+      font-size: 32px;
+      font-weight: 700;
+      color: #160637;
+      margin-top: 36px;
+      margin-bottom: 26px;
+    }
+    .p {
+      font-size: 16px;
+      font-weight: 500;
+      color: #8989a2;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+    .img {
+      margin-bottom: 10px;
+
+      img {
+        width: 90%;
+      }
+    }
+    .productsTeams {
+      .mainText {
+        margin: 10px 0;
+      }
+    }
+  }
+}

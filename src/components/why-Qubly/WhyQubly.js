@@ -31,7 +31,7 @@ function WhyQubly() {
             <div className="one">
             <Btn icon={eye} title="Why Qubly"/>
             <h2 className='why-text'>Get actionable insights from Big Data in 3 steps</h2>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod<br/> tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            <p className='qublyText'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod<br/> tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
             </div>
             <div className="two">
              { myProduct.map((item)=>{
