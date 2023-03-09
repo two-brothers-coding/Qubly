@@ -1,0 +1,103 @@
+
+.signForm{
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width:767px){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+    .trustedBy{
+        display: flex;
+        flex-direction: column;
+        width: 431px;
+        .trustedText {
+                font-size: 32px;
+                font-weight: 700;
+                color: #160637;
+                margin-bottom: 35px;
+            }
+        .trusted{
+           display: flex;
+           align-items: center;
+           gap: 10px;
+           margin-bottom:52px ;
+          .byLine{
+            font-size: 16px;
+            font-weight: 500;
+            color:#8989A2 ;
+          }
+            .left{
+                border-top: 2px solid #D6D6D6;
+                width: 144px;
+            }
+        }
+        .react-acc{
+            display: flex;
+            align-items: center;
+            margin-bottom: 70px;
+            gap: 100px;
+        }
+    }
+    .signUp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding:32px 40px;
+        width:480px;
+        border: 29px  solid #F9F0FF;
+        border-radius: 8px;
+        .sign{
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 32px;
+            color: #160637;
+            margin-bottom:16px ;
+        }
+        .pinkBtn{
+            padding: 12px 99px;
+            background-color:#722ED1 ;
+            color: white;
+            font-size: 16px;
+            font-weight: 500;
+            border: none;
+            border-radius: 5px;
+            margin-bottom:16px ;
+            cursor: pointer;
+        }
+        .input{
+           width: 333px;
+           padding: 12px 10px;
+           margin-bottom: 16px;
+           font-size:16px;
+           font-weight: 500;
+           color: #8989A2;
+           border-radius: 5px;
+        }
+        .or{
+            font-size: 16px;
+            font-weight: 500;
+            color:#000000 ;
+            margin-bottom: 16px;
+        }
+        .line{
+            margin-top: 16px;
+            border-top: 2px solid #8989a27a;
+            width: 336px;
+
+        }
+        .imgG{
+            cursor: pointer;
+        }
+        .account{
+            font-size: 14px;
+            font-weight: 500;
+            color: #8989A2;
+            margin-top: 16px;
+            a{
+                color:Purple ;
+            }
+        }
+    }
+}
