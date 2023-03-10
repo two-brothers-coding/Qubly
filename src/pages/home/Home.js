@@ -1,6 +1,7 @@
 import React from 'react'
 import AbaoutQubly from '../../components/aboutQubly/AboutQubly.js'
 
+
 // components
 import  Hero from '../../components/Hero/Hero.js'
 import EngTeams from '../../components/productsTeams/EngTeams'
@@ -17,6 +18,7 @@ function Home() {
       <EngTeams/>
       <AbaoutQubly/>
       <SignUp/>
+      
     </div>
   )
 }
